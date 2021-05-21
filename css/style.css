@@ -57,9 +57,12 @@ pre {
   height: 0;
 }
 
+.icon-stack {
+  margin: 1em;
+}
 /* Navbar */
 .navbar {
-  background-color: var(--primary-color);
+  background-color: var(--dark-color);
   color: #fff;
   height: 70px;
 }
@@ -79,7 +82,7 @@ pre {
 }
 
 .navbar .flex {
-  justify-content: space-between;
+  justify-content: left;
 }
 
 /* Showcase */
