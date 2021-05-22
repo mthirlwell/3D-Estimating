@@ -64,7 +64,7 @@ pre {
 .navbar {
   background-color: var(--dark-color);
   color: #fff;
-  height: 70px;
+  height: 100px;
 }
 
 .navbar ul {
