@@ -31,7 +31,7 @@ a {
 
 h1 {
   font-weight: 400;
-  margin: 1em 0;
+  /* margin: 1em 0; */
 }
 h2 {
   font-weight: 300;
@@ -60,24 +60,25 @@ pre {
 }
 
 .logo_icon {
-  margin: 1em;
+  /* margin: 1em; */
 }
 
 /* Navbar */
 .navbar {
   background-color: var(--secondary-color);
   color: var(--light-color);
-  height: 120px;
+  height: 10vh;
   position: relative;
 }
 
 .navbar .flex {
   justify-content: left;
+  gap: 1em;
 }
 
 /* Showcase */
 .showcase {
-  height: 60vh;
+  height: 50vh;
   background-color: var(--primary-color);
   color: var(--light-color);
   position: relative;
@@ -146,7 +147,7 @@ pre {
 
 /* Stats */
 .stats {
-  padding-top: 100px;
+  padding-top: 5em;
   animation: slideInFromBottom 1s ease-in;
 }
 
@@ -307,6 +308,7 @@ pre {
   .docs-main .grid {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
+    /* grid-auto-flow: row; */
   }
 
   .showcase {
@@ -351,19 +353,21 @@ pre {
 /* Mobile */
 @media (max-width: 500px) {
   .navbar {
-    height: 110px;
+    height: 120px;
   }
 
   .navbar .flex {
     flex-direction: column;
+    justify-content: center;
   }
 
-  .navbar ul {
+  /* .navbar ul {
     padding: 10px;
     background-color: rgba(0, 0, 0, 0.1);
-  }
+  } */
 
+ 
   .showcase-form {
     width: 300px;
-  }
+    
 }
