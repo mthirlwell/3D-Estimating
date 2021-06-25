@@ -1,68 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/utilities.css" />
-    <link rel="stylesheet" href="css/style.css" />
-    <title>Maury Thirlwell| Estimating</title>
-  </head>
-  <body>
-    <!-- Navbar -->
-    <header class="header">
-      <div class="header_logo container flex">
-        <svg
-          class="header_logo_icon"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-          width="3em"
-          height="3em"
-          viewBox="0 0 16 16"
-        >
-          <path
-            d="M2.406 9.118L0 10.62 8.615 16 16 11.389l-2.406-1.503-4.979 3.11-6.21-3.878z"
-            fill="#214E52"
-          />
-          <path
-            d="M4.811 7.616L2.406 9.118l6.21 3.877 4.978-3.108-2.405-1.503-2.574 1.607-3.804-2.375z"
-            fill="#45888E"
-          />
-          <path
-            d="M13.594 9.887L16 8.384l-2.406-1.502-2.405 1.502 2.405 1.503zM4.811 7.616L2.406 6.114 0 7.616l2.406 1.502L4.81 7.616z"
-            fill="#71ACB1"
-          />
-          <path
-            d="M11.189 8.384L8.615 9.991 4.812 7.616l2.573-1.607 3.804 2.375z"
-            fill="#5D797D"
-          />
-          <path
-            d="M13.594 6.882l-6.21-3.878-4.978 3.11L4.81 7.615l2.574-1.607 3.804 2.375 2.405-1.502z"
-            fill="#6F878B"
-          />
-          <path
-            d="M7.385 0L0 4.611l2.406 1.502 4.979-3.109 6.21 3.878L16 5.38 7.385 0z"
-            fill="#A7A9AA"
-          />
-        </svg>
 
-        <h1 class="header_logo_name">Maury Thirlwell</h1>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/utilities.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <title>Maury Thirlwell| Estimating</title>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <header class="header">
+    <div class="logo container">
+      <svg class="logo_icon" fill="none" xmlns="http://www.w3.org/2000/svg" width="3em" height="3em"
+        viewBox="0 0 16 16">
+        <path d="M2.406 9.118L0 10.62 8.615 16 16 11.389l-2.406-1.503-4.979 3.11-6.21-3.878z" fill="#214E52" />
+        <path d="M4.811 7.616L2.406 9.118l6.21 3.877 4.978-3.108-2.405-1.503-2.574 1.607-3.804-2.375z" fill="#45888E" />
+        <path
+          d="M13.594 9.887L16 8.384l-2.406-1.502-2.405 1.502 2.405 1.503zM4.811 7.616L2.406 6.114 0 7.616l2.406 1.502L4.81 7.616z"
+          fill="#71ACB1" />
+        <path d="M11.189 8.384L8.615 9.991 4.812 7.616l2.573-1.607 3.804 2.375z" fill="#5D797D" />
+        <path d="M13.594 6.882l-6.21-3.878-4.978 3.11L4.81 7.615l2.574-1.607 3.804 2.375 2.405-1.502z" fill="#6F878B" />
+        <path d="M7.385 0L0 4.611l2.406 1.502 4.979-3.109 6.21 3.878L16 5.38 7.385 0z" fill="#A7A9AA" />
+      </svg>
+
+      <h1 class="logo_name">Maury Thirlwell</h1>
+    </div>
+  </header>
+
+  <!-- Showcase -->
+  <section class="showcase">
+    <div class="container grid">
+      <div class="showcase-text">
+        <h1>Accurate Estimates</h1>
+        <p>Material takeoffs to conceptual pricing</p>
+        <p>Fill out the form to try the service.</p>
+
+        <!-- <a href="#" class="btn btn-outline">Read More</a> -->
       </div>
-    </header>
 
-    <!-- Showcase -->
-    <section class="showcase">
-      <div class="container grid">
-        <div class="showcase-text">
-          <h1>Accurate Estimates</h1>
-          <p>
-            Material takeoffs to conceptual pricing        designers/architects. Fill out the form to try the service.
-          </p>
-          <!-- <a href="#" class="btn btn-outline">Read More</a> -->
-        </div>
-
-        <div class="showcase-form card">
-          <h2>Request a Quote</h2>
-          <!--  <form name="contact" netlify-honeypot="bot-field" method="POST" data-netlify="true">
+      <div class="showcase-form card">
+        <h2>Request a Quote</h2>
+        <!--  <form name="contact" netlify-honeypot="bot-field" method="POST" data-netlify="true">
                     <input type="hidden" name="form-name" value="contact">
                     <p class="hidden">
                         <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
@@ -78,187 +58,168 @@
                     </div>
                     <input type="submit" value="Send" class="btn btn-primary">
                 </form> -->
-          <form>
-            <div class="form-control">
-              <input type="text" name="name" placeholder="Name" required />
-            </div>
-            <div class="form-control">
-              <input
-                type="text"
-                name="company"
-                placeholder="Company Name"
-                required
-              />
-            </div>
-            <div class="form-control">
-              <input type="email" name="email" placeholder="Email" required />
-            </div>
-            <input type="submit" value="Send" class="btn btn-primary" />
-          </form>
-        </div>
-      </div>
-    </section>
-
-    <!-- Industries -->
-    <section class="type">
-      <div class="container">
-        <h2 class="type-heading text-center my-1 xl">Welcome</h2>
-        <h2 class="type-heading text-center my-1">
-          Track costs and estimate your projects.
-        </h2>
-
-        <div class="grid grid-3 text-center my-4">
-          <div>
-            <h2>Commercial</h2>
-            <img
-              src="/images/SVGs/undraw_Building_commercial--h100.svg"
-              alt="building"
-            />
+        <form>
+          <div class="form-control">
+            <input type="text" name="name" placeholder="Name" required />
           </div>
-          <div>
-            <h2>Residential</h2>
-            <img src="/images/SVGs/undraw_at_home--h100.svg" alt="home" />
+          <div class="form-control">
+            <input type="text" name="company" placeholder="Company Name" required />
           </div>
-          <div>
-            <h2>Retail</h2>
-            <img src="/images/SVGs/undraw_retail_shop--h100.svg" alt="shop" />
+          <div class="form-control">
+            <input type="email" name="email" placeholder="Email" required />
           </div>
+          <input type="submit" value="Send" class="btn btn-primary" />
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Industries -->
+  <section class="type">
+    <div class="container">
+      <h2 class="type-heading text-center my-1 xl">Welcome</h2>
+      <h2 class="type-heading text-center my-1">
+        Track costs and estimate your projects.
+      </h2>
+
+      <div class="grid grid-3 text-center my-4">
+        <div>
+          <h2>Commercial</h2>
+          <img src="/images/SVGs/undraw_Building_commercial--h100.svg" alt="building" />
+        </div>
+        <div>
+          <h2>Residential</h2>
+          <img src="/images/SVGs/undraw_at_home--h100.svg" alt="home" />
+        </div>
+        <div>
+          <h2>Retail</h2>
+          <img src="/images/SVGs/undraw_retail_shop--h100.svg" alt="shop" />
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- Clients -->
-    <section class="clients">
-      <h2 class="md text-center my-2">Who Is It For</h2>
-      <div class="container flex">
-        <div class="card">
-          <h4>Contractors</h4>
-          <img
-            src="/images/SVGs/07062021/undraw_under_construction_9680_svgomg.svg"
-            alt="building"
-          />
-        </div>
-
-        <div class="card">
-          <h4>Architects</h4>
-          <img
-            src="/images/SVGs/07062021/undraw_QA_engineers_9680_svgomg.svg"
-            alt=""
-          />
-        </div>
-        <div class="card">
-          <h4>Designers</h4>
-          <img
-            src="/images/SVGs/07062021/undraw_interior_design_9680_svgomg.svg"
-          />
-        </div>
-        <div class="card">
-          <h4>Property Owners</h4>
-          <img
-            src="/images/SVGs/07062021/undraw_urban_design_9680_svgomg.svg"
-            alt="Urban"
-          />
-        </div>
+  <!-- Clients -->
+  <section class="clients">
+    <h2 class="md text-center my-2">Who Is It For</h2>
+    <div class="container flex">
+      <div class="card">
+        <h4>Contractors</h4>
+        <img src="/images/SVGs/07062021/undraw_under_construction_9680_svgomg.svg" alt="building" />
       </div>
-    </section>
-    <!-- Advantages -->
-    <section class=" bg-primary py-3">
-      <div class="container grid grid-3 text-center">
-        <div class="card">
-          <h2 class="md">Easy</h2>
-          <p>Save your time</p>
-          <p>Send in your plans</p>
-        </div>
 
-        <div class="card">
-          <h2 class="md">Flexible</h2>
-          <p>Adapt to your needs</p>
-          <p>Make revisions</p>
-        </div>
-
-        <div class="card">
-          <h2 class="md">Confidential</h2>
-          <p>Nothing shared</p>
-        </div>
+      <div class="card">
+        <h4>Architects</h4>
+        <img src="/images/SVGs/07062021/undraw_QA_engineers_9680_svgomg.svg" alt="" />
       </div>
-    </section>
-
-    <!-- Services -->
-    <section class=" py-3">
-      <div class="container grid">
-        <h1 class="md">Services</h1>
-        <p>Material takeoffs</p>
-        <p>Pre construction estimates</p>
-        <p>Conceptual estimates</p>
-
-        <p>Hard Quotes</p>
+      <div class="card">
+        <h4>Designers</h4>
+        <img src="/images/SVGs/07062021/undraw_interior_design_9680_svgomg.svg" />
       </div>
-    </section>
-
-    <section class="my-2">
-      <div class="container grid grid-3">
-        <div class="card flex">
-          <h2>Visit the site on a regular basis</h2>
-        </div>
-        <div class="card flex">
-          <h2>Estimates are derived from a 3d model</h2>
-        </div>
-        <div class="card flex">
-          <h2>Confidential</h2>
-        </div>
-        <div class="card flex">
-          <h2>Flexible</h2>
-        </div>
-        <div class="card flex">
-          <h2>Review Quotes</h2>
-        </div>
-        <div class="card flex">
-          <h2>
-            Foster strong relationships with all subcontractors and suppliers
-          </h2>
-        </div>
+      <div class="card">
+        <h4>Property Owners</h4>
+        <img src="/images/SVGs/07062021/undraw_urban_design_9680_svgomg.svg" alt="Urban" />
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- Footer -->
-    <footer class="footer">
-      <div class="footer_logo container">
-        <svg
-          class="header_logo_icon"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-          width="3em"
-          height="3em"
-          viewBox="0 0 16 16"
-        >
-          <path
-            d="M2.406 9.118L0 10.62 8.615 16 16 11.389l-2.406-1.503-4.979 3.11-6.21-3.878z"
-            fill="#214E52"
-          />
-          <path
-            d="M4.811 7.616L2.406 9.118l6.21 3.877 4.978-3.108-2.405-1.503-2.574 1.607-3.804-2.375z"
-            fill="#45888E"
-          />
-          <path
-            d="M13.594 9.887L16 8.384l-2.406-1.502-2.405 1.502 2.405 1.503zM4.811 7.616L2.406 6.114 0 7.616l2.406 1.502L4.81 7.616z"
-            fill="#71ACB1"
-          />
-          <path
-            d="M11.189 8.384L8.615 9.991 4.812 7.616l2.573-1.607 3.804 2.375z"
-            fill="#5D797D"
-          />
-          <path
-            d="M13.594 6.882l-6.21-3.878-4.978 3.11L4.81 7.615l2.574-1.607 3.804 2.375 2.405-1.502z"
-            fill="#6F878B"
-          />
-          <path
-            d="M7.385 0L0 4.611l2.406 1.502 4.979-3.109 6.21 3.878L16 5.38 7.385 0z"
-            fill="#A7A9AA"
-          />
-        </svg>
-
-        <h1 class="header_logo_name">Maury Thirlwell</h1>
+  <!-- Advantages -->
+  <section class=" bg-primary py-3">
+    <div class="container grid grid-3 text-center">
+      <div class="card">
+        <h2 class="md">Easy</h2>
+        <!-- <p>Save your time</p>
+          <p>Send in your plans</p> -->
       </div>
-    </footer>
-  </body>
+
+      <div class="card">
+        <h2 class="md">Flexible</h2>
+        <!-- <p>Adapt to your needs</p>
+          <p>Make revisions</p> -->
+      </div>
+      <div class="card">
+        <h2 class="md">Visual</h2>
+        <!-- <p>Work derived from 3d model</p> -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section class="container grid grid-3 py-3 text-center">
+
+
+    <div class="card ">
+      <p>Send me your plans</p>
+      <p>DWG, PDF, photo, sketch, bid boards</p>
+      <p>Receive a quote</p>
+      <p>Proceed</p>
+
+
+    </div>
+    <div class="card ">
+      <p>Material takeoffs</p>
+      <p>Pre construction estimates</p>
+      <p>Conceptual estimates</p>
+      <p>Hard Quotes</p>
+    </div>
+    <div class="card ">
+      <p>Estimates derived from a 3d model</p>
+    </div>
+    <div class="card ">
+      <h2>
+        Coordinate subcontractors and suppliers
+      </h2>
+    </div>
+
+  </section>
+  <!-- Test Grid -->
+  <section>
+    <div Class="features container">
+      <div class="features_card">
+        <h3>Feature</h3>
+        <p>Some good things</p>
+      </div>
+      <div>
+        <h3>Feature</h3>
+        <p>Some good things</p>
+      </div>
+      <div>
+        <h3>Feature</h3>
+        <p>Some good things</p>
+      </div>
+      <div>
+        <h3>Feature</h3>
+        <p>Some good things</p>
+      </div>
+
+
+
+    </div>
+
+
+  </section>
+
+
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="logo container ">
+      <svg class="logo_icon" fill="none" xmlns="http://www.w3.org/2000/svg" width="3em" height="3em"
+        viewBox="0 0 16 16">
+        <path d="M2.406 9.118L0 10.62 8.615 16 16 11.389l-2.406-1.503-4.979 3.11-6.21-3.878z" fill="#214E52" />
+        <path d="M4.811 7.616L2.406 9.118l6.21 3.877 4.978-3.108-2.405-1.503-2.574 1.607-3.804-2.375z" fill="#45888E" />
+        <path
+          d="M13.594 9.887L16 8.384l-2.406-1.502-2.405 1.502 2.405 1.503zM4.811 7.616L2.406 6.114 0 7.616l2.406 1.502L4.81 7.616z"
+          fill="#71ACB1" />
+        <path d="M11.189 8.384L8.615 9.991 4.812 7.616l2.573-1.607 3.804 2.375z" fill="#5D797D" />
+        <path d="M13.594 6.882l-6.21-3.878-4.978 3.11L4.81 7.615l2.574-1.607 3.804 2.375 2.405-1.502z" fill="#6F878B" />
+        <path d="M7.385 0L0 4.611l2.406 1.502 4.979-3.109 6.21 3.878L16 5.38 7.385 0z" fill="#A7A9AA" />
+      </svg>
+
+      <h1 class="logo_name">Maury Thirlwell</h1>
+    </div>
+  </footer>
+</body>
+
 </html>

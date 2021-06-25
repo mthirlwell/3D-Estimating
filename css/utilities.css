@@ -34,40 +34,33 @@
 }
 
 /* Backgrounds & colored buttons */
-.bg-primary,
-.btn-primary {
+
+.bg-primary, .btn-primary {
   background-color: var(--primary-color);
   color: #fff;
 }
 
-.bg-secondary,
-.btn-secondary {
+.bg-secondary, .btn-secondary {
   background-color: var(--secondary-color);
   color: #fff;
 }
 
-.bg-dark,
-.btn-dark {
+.bg-dark, .btn-dark {
   background-color: var(--dark-color);
   color: #fff;
 }
 
-.bg-light,
-.btn-light {
+.bg-light, .btn-light {
   background-color: var(--light-color);
   color: #333;
 }
 
-.bg-primary a,
-.btn-primary a,
-.bg-secondary a,
-.btn-secondary a,
-.bg-dark a,
-.btn-dark a {
+.bg-primary a, .btn-primary a, .bg-secondary a, .btn-secondary a, .bg-dark a, .btn-dark a {
   color: #fff;
 }
 
 /* Text colors */
+
 .text-primary {
   color: var(--primary-color);
 }
@@ -85,6 +78,7 @@
 }
 
 /* Text sizes */
+
 .lead {
   font-size: 20px;
 }
@@ -109,28 +103,6 @@
   text-align: center;
 }
 
-/* Alert */
-.alert {
-  background-color: var(--light-color);
-  padding: 10px 20px;
-  font-weight: bold;
-  margin: 15px 0;
-}
-
-.alert i {
-  margin-right: 10px;
-}
-
-.alert-success {
-  background-color: var(--success-color);
-  color: #fff;
-}
-
-.alert-error {
-  background-color: var(--error-color);
-  color: #fff;
-}
-
 .flex {
   display: flex;
   justify-content: center;
@@ -153,6 +125,7 @@
 }
 
 /* Margin */
+
 .my-1 {
   margin: 1rem 0;
 }
@@ -194,6 +167,7 @@
 }
 
 /* Padding */
+
 .py-1 {
   padding: 1rem 0;
 }
