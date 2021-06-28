@@ -1,5 +1,5 @@
-# Lokuri Website
+# 3D Estimating Website
 
-> Fake cloud hosting website used in this [YouTube tutorial](https://www.youtube.com/watch?v=p0bGHP-PXD4)
+> New website for my work.
 
-> Fake cloud hosting website [Live Preview](https://zen-carson-c10c9f.netlify.app)
+> Based on Traversy Media Loruki responsive website tutorial
