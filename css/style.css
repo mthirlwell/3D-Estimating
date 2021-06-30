@@ -75,24 +75,21 @@ pre {
   align-items: center;
 }
 
-.logo_name {
-  margin-top: auto;
-  margin-bottom: auto;
-  margin-right: auto;
-}
+
 
 /* Showcase */
 
 .showcase {
   /* height: 50vh; */
-  height: 35vw;
+  /* height: 35vw; */
+  height:  min(35vh, 385px);
   background-color: var(--primary-color);
   color: var(--light-color);
   position: relative;
 }
 
 .showcase h1 {
-  font-size: 40px;
+  font-size: 3rem;
 }
 
 .showcase p {
