@@ -40,6 +40,8 @@ h2 {
   margin: 10px 0;
 }
 
+
+
 p {
   margin: 10px 0;
 }
@@ -70,10 +72,16 @@ pre {
   color: var(--light-color);
   height: 6em;
   position: relative;
-  display: flex;
+  display: flex; 
   gap: 1em;
-  align-items: center;
+  align-items: baseline;
 }
+
+.logo_icon {
+  align-self: center;
+}
+
+
 
 
 
@@ -172,10 +180,13 @@ pre {
 
 /* Features */
 
+.services {
+  display: grid;
+  grid-auto-flow: column;
+  gap: 1.5em;
+}
 .features {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1.5em;
 }
 
 .features_card {
