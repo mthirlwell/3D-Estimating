@@ -20,8 +20,11 @@ body {
 }
 
 ul {
-  list-style-type: none;
+  list-style-type: disc;
 }
+/* ::marker {
+  content: '';
+} */
 
 a {
   text-decoration: none;
@@ -90,7 +93,7 @@ pre {
 .showcase {
   /* height: 50vh; */
   /* height: 35vw; */
-  height:  min(35vh, 385px);
+  height:  min(50vh, 385px);
   background-color: var(--primary-color);
   color: var(--light-color);
   position: relative;
