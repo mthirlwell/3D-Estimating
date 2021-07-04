@@ -19,8 +19,6 @@ body {
   line-height: 1.6;
 }
 
-
-
 a {
   text-decoration: none;
   color: var(--secondary-color);
@@ -41,7 +39,6 @@ h2 {
 h3 {
   font-weight: 200;
 }
-
 
 p {
   margin: 10px 0;
@@ -73,31 +70,22 @@ pre {
   color: var(--light-color);
   height: 6em;
   position: relative;
-  display: flex; 
+  display: flex;
   gap: 1em;
   align-items: center;
 }
 
-/* .logo_icon {
-  align-self: center;
-} */
-
-
-
-
-
 /* Showcase */
 
 .showcase {
-
-  height:  min(50vh, 385px);
+  height: min(50vh, 385px);
   background-color: var(--primary-color);
   color: var(--light-color);
   position: relative;
 }
 
 .showcase h1 {
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
 .showcase p {
@@ -301,16 +289,6 @@ pre {
     height: 120px;
   }
 
-  .logo {
-    flex-direction: column;
-  }
-  /* .header .flex {
-    flex-direction: column;
-    gap: 0;
-  } */
-  .logo_name {
-    margin: auto;
-  }
   .showcase-form {
     width: 300px;
   }
