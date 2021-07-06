@@ -8,7 +8,8 @@
 }
 
 * {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
@@ -70,9 +71,13 @@ pre {
   color: var(--light-color);
   height: 6em;
   position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   gap: 1em;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 /* Showcase */
@@ -99,7 +104,8 @@ pre {
 }
 
 .showcase-text {
-  animation: slideInFromLeft 1s ease-in;
+  -webkit-animation: slideInFromLeft 1s ease-in;
+          animation: slideInFromLeft 1s ease-in;
 }
 
 .showcase-form {
@@ -110,7 +116,8 @@ pre {
   padding: 40px;
   z-index: 100;
   justify-self: flex-end;
-  animation: slideInFromRight 1s ease-in;
+  -webkit-animation: slideInFromRight 1s ease-in;
+          animation: slideInFromRight 1s ease-in;
 }
 
 .showcase-form .form-control {
@@ -149,7 +156,8 @@ pre {
 
 .type {
   padding-top: 5em;
-  animation: slideInFromBottom 1s ease-in;
+  -webkit-animation: slideInFromBottom 1s ease-in;
+          animation: slideInFromBottom 1s ease-in;
 }
 
 .type-heading {
@@ -192,47 +200,104 @@ pre {
   height: 100%;
   color: var(--light-color);
   margin: 0 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: left;
-  align-content: center;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  -ms-flex-line-pack: center;
+      align-content: center;
   gap: 1em;
 }
 
 /* Animations */
 
-@keyframes slideInFromLeft {
+@-webkit-keyframes slideInFromLeft {
   0% {
-    transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
   }
   100% {
-    transform: translateX(0);
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+@keyframes slideInFromLeft {
+  0% {
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+@-webkit-keyframes slideInFromRight {
+  0% {
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
   }
 }
 
 @keyframes slideInFromRight {
   0% {
-    transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%);
   }
   100% {
-    transform: translateX(0);
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+@-webkit-keyframes slideInFromTop {
+  0% {
+    -webkit-transform: translateY(-100%);
+            transform: translateY(-100%);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
   }
 }
 
 @keyframes slideInFromTop {
   0% {
-    transform: translateY(-100%);
+    -webkit-transform: translateY(-100%);
+            transform: translateY(-100%);
   }
   100% {
-    transform: translateX(0);
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+@-webkit-keyframes slideInFromBottom {
+  0% {
+    -webkit-transform: translateY(100%);
+            transform: translateY(100%);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
   }
 }
 
 @keyframes slideInFromBottom {
   0% {
-    transform: translateY(100%);
+    -webkit-transform: translateY(100%);
+            transform: translateY(100%);
   }
   100% {
-    transform: translateX(0);
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
   }
 }
 
@@ -255,12 +320,14 @@ pre {
   .showcase-text {
     text-align: center;
     margin-top: 40px;
-    animation: slideInFromTop 1s ease-in;
+    -webkit-animation: slideInFromTop 1s ease-in;
+            animation: slideInFromTop 1s ease-in;
   }
   .showcase-form {
     justify-self: center;
     margin: auto;
-    animation: slideInFromBottom 1s ease-in;
+    -webkit-animation: slideInFromBottom 1s ease-in;
+            animation: slideInFromBottom 1s ease-in;
   }
   .cli .grid > *:first-child {
     grid-column: 1;
