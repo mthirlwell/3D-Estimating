@@ -193,7 +193,9 @@ pre {
 
 .footer {
   background-color: var(--secondary-color);
-  height: 6em;
+  /* height: 6em; */
+  display:grid;
+  grid-template-columns: 1fr;
 }
 
 .footer_logo {
@@ -211,6 +213,14 @@ pre {
   gap: 1em;
 }
 
+.footer_location {
+  color: var(--light-color);
+  text-align: center;
+}
+.footer_email {
+  color: var(--light-color);
+  text-align: center;
+}
 /* Animations */
 
 @-webkit-keyframes slideInFromLeft {
