@@ -103,7 +103,7 @@ pre {
 
 .showcase .grid {
   overflow: visible;
-  grid-template-columns: 55% auto;
+  grid-template-columns: 1fr auto;
   gap: 30px;
 }
 
