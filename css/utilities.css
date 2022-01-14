@@ -10,10 +10,9 @@
   color: #333;
   border-radius: 10px;
   -webkit-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
-          box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
   padding: 20px;
   margin: 10px;
-  
 }
 
 .btn {
@@ -33,33 +32,42 @@
 
 .btn:hover {
   -webkit-transform: scale(0.98);
-      -ms-transform: scale(0.98);
-          transform: scale(0.98);
+  -ms-transform: scale(0.98);
+  transform: scale(0.98);
 }
 
 /* Backgrounds & colored buttons */
 
-.bg-primary, .btn-primary {
+.bg-primary,
+.btn-primary {
   background-color: var(--primary-color);
   color: #fff;
 }
 
-.bg-secondary, .btn-secondary {
+.bg-secondary,
+.btn-secondary {
   background-color: var(--secondary-color);
   color: #fff;
 }
 
-.bg-dark, .btn-dark {
+.bg-dark,
+.btn-dark {
   background-color: var(--dark-color);
   color: #fff;
 }
 
-.bg-light, .btn-light {
+.bg-light,
+.btn-light {
   background-color: var(--light-color);
   color: #333;
 }
 
-.bg-primary a, .btn-primary a, .bg-secondary a, .btn-secondary a, .bg-dark a, .btn-dark a {
+.bg-primary a,
+.btn-primary a,
+.bg-secondary a,
+.btn-secondary a,
+.bg-dark a,
+.btn-dark a {
   color: #fff;
 }
 
@@ -112,14 +120,14 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   height: 100%;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .grid {
@@ -127,19 +135,19 @@
   grid-template-columns: repeat(2, 1fr);
   gap: 1.5em;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   height: 100%;
 }
 
 .grid-3 {
   grid-template-columns: repeat(3, 1fr);
   -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: start;
+  -ms-flex-align: start;
+  align-items: start;
 }
 
 /* Margin */
