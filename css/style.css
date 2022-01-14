@@ -111,6 +111,10 @@ pre {
   -webkit-animation: slideInFromLeft 1s ease-in;
   animation: slideInFromLeft 1s ease-in;
 }
+.showcase-title {
+  display: grid;
+  flex-direction: column;
+}
 
 .showcase-form {
   position: relative;
