@@ -59,6 +59,7 @@ pre {
 .hidden {
   visibility: hidden;
   height: 0;
+  margin: 20px 0;
 }
 
 /* Header */
@@ -93,14 +94,6 @@ pre {
   position: relative;
 }
 
-.showcase h1 {
-  font-size: 2rem;
-}
-
-.showcase p {
-  margin: 20px 0;
-}
-
 .showcase .grid {
   overflow: visible;
   grid-template-columns: 1fr auto;
@@ -111,9 +104,49 @@ pre {
   -webkit-animation: slideInFromLeft 1s ease-in;
   animation: slideInFromLeft 1s ease-in;
 }
-.showcase-title {
+.story {
+  width: max-content;
   display: grid;
-  flex-direction: column;
+  grid-template-columns: auto auto;
+  gap: 0.5rem;
+}
+
+.story_headline {
+  margin-bottom: 0;
+  grid-column: 1 / -1;
+}
+
+.story_subheading {
+  margin: 0px;
+  writing-mode: vertical-lr;
+  letter-spacing: 0.25rem;
+  grid-column: 2;
+  grid-row: 2 / 6;
+  justify-self: end;
+  font-size: 1.5rem;
+  color: var(--secondary-color);
+}
+
+.story_support_1 {
+  margin: 0px;
+  font-size: 1rem;
+  grid-column: 1;
+  grid-row: 3;
+  align-self: start;
+}
+.story_support_2 {
+  margin: 0px;
+  font-size: 1rem;
+  grid-column: 1;
+  grid-row: 4;
+  align-self: start;
+}
+.story_support_3 {
+  margin: 0px;
+  font-size: 1rem;
+  grid-column: 1;
+  grid-row: 5;
+  align-self: start;
 }
 
 .showcase-form {
@@ -362,7 +395,7 @@ pre {
     height: auto;
   }
   .showcase-text {
-    text-align: center;
+    /* text-align: center; */
     margin-top: 40px;
     -webkit-animation: slideInFromTop 1s ease-in;
     animation: slideInFromTop 1s ease-in;
